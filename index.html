@@ -103,19 +103,19 @@ Most Ghanaians have at least one name from this system, even if they also have a
                     <h2>Calculate and generate your Akan Name</h2>
                 </div>
                 <div>
-                <form>
+                <form class = "myform" onsubmit="return getAkanName()">
                     <div class = "inputcontainer one">
-                            <input id = "day" class = "input" type="number" placeholder="">
+                            <input id = "day-input" class = "input" type="number" placeholder="" name = "day-of-birth" required>
                             <div class = "cut"></div>
                             <label for = "day" class = "placeholder">Day of birth</label>
                     </div>
                     <div class = "inputcontainer two">
-                        <input id = "month" class = "input" type="number" placeholder="">
+                        <input id = "month-input" class = "input" type="number" placeholder="" name = "month-of-birth" required>
                         <div class = "cut"></div>
                         <label for = "day" class = "placeholder">Month of birth</label>
                      </div>
                      <div class = "inputcontainer three">
-                        <input id = "year" class = "input" type="number" placeholder="">
+                        <input id = "year-input" class = "input" type="number" placeholder="" name = "year-of-birth" required>
                         <div class = "cut"></div>
                         <label for = "day" class = "placeholder">Year of birth</label>
                      </div>
