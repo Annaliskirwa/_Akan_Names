@@ -1,0 +1,9 @@
+#mainNav{
+    background-color: black;
+}
+#minimenu{
+    float: right;
+}
+.nav-item .nav-link{
+    float: right;
+}
