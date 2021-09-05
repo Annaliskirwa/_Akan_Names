@@ -49,6 +49,35 @@ body,html{
  .calculate .container h2{
      align-items: center;
  }
+ .one{
+    margin-top: 10px;
+}
+.two{
+    margin-top: 30px;
+}
+.input{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color:#000000;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 50%;
+}
+.cut {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 100px;
+  }
 
 @media(min-width:768px){
     .htop{
