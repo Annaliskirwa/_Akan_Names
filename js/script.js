@@ -102,3 +102,7 @@ function getAkanName () {
       alert("You entered an invalid day or month, please try again");
     }
   }
+
+  function clearInput(){
+    document.getElementById("formOne").reset();
+  }
