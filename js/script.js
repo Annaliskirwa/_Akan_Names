@@ -69,3 +69,10 @@ let daysOfWeek = [
   let femaleAkanNames = [
     "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
   ];
+
+let index;
+if (daysOfWeekNumber == 0){
+    index = 6;
+} else {
+    index = daysOfWeekNumber - 1;
+}
