@@ -32,5 +32,12 @@ function monthValidator(){
         else{
             return true;
         }
-    
+}
+
+function dayValidator(){
+    if (monthOfBirth === 2 && Number(yearOfBirth)%4 === 0){
+        if (dayOfBirth > 28 || dayOfBirth < 1){
+            return false;
+        }
+    }
 }
