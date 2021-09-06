@@ -32,8 +32,8 @@ Formula provided to deterine the day of birth shows some inconsistency with year
 * HTML - For the page structure
 * CSS - For styling the web app
 * Javascript - For document object manipulation and user interactivity
-* Bootstrap - For styling the interface  
-* JQuery - For enhanced interactivity
+* Bootstrap - For styling the interface and responsiveness  
+* JQuery - For enhanced interactivity, animations effect on the webpage
 ## Support and contact details
 In case of any problem while interacting with the application, reach out to me at annalis.kirwa@student.moringaschool.com
 ### License.
