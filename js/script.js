@@ -8,3 +8,10 @@ $(document).ready(function(){
         })
     })
 });
+/*Here is the calculator javascript  */
+function getAkanName(){
+    let yearOfBirth = Number(document.getElementById("year-input").value);
+    let monthOfBirth = Number(document.getElementById("month-input").value);
+    let dayOfBirth =  Number(document.getElementById("day-input").value);
+    let genders = getElementByName("gender")
+}
