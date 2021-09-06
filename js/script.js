@@ -37,7 +37,7 @@ function getAkanName () {
     }
   
     function dayValidator () {
-      if (monthOfBirth === 2 && Number(yearOfBirth)%4 === 0) {
+      if (monthOfBirth === 2 && Number(yearOfBirth)%4 === 0 && Number(yearOfBirth)%100 != 0 && Number(yearOfBirth)%400 === 0) {
         if (dayOfBirth > 28 || dayOfBirth < 1) {
           return false;
         } else if (monthOfBirth === 2 && dayOfBirth > 29) {
