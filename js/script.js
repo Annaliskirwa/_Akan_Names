@@ -51,3 +51,9 @@ function dayValidator(){
         return true;
     }
 }
+
+let monthValid = monthValidator();
+let dayValid = dayValidator();
+
+let daysOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
+((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
